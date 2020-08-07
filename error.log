@@ -1,0 +1,63 @@
+Traceback (most recent call last):
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 89, in __loadsettings
+    print("Load trans_init: ",self.self.datas.trans_inits)
+AttributeError: 'main' object has no attribute 'self'
+
+Warning (from warnings module):
+  File "C:\python36\lib\site-packages\vtk\util\numpy_support.py", line 137
+    assert not numpy.issubdtype(z.dtype, complex), \
+FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+Traceback (most recent call last):
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 78, in __loadingFinished
+    self.__mergedByTransInit()
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 121, in __mergedByTransInit
+    d=tools.applyTransform(self.datas.pcdCollection[-2],self.datas.pcdCollection[-1],self.datas.trans_inits[rtInd])
+IndexError: list index out of range
+
+Warning (from warnings module):
+  File "C:\python36\lib\site-packages\vtk\util\numpy_support.py", line 137
+    assert not numpy.issubdtype(z.dtype, complex), \
+FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+Traceback (most recent call last):
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 78, in __loadingFinished
+    self.__mergedByTransInit()
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 121, in __mergedByTransInit
+    d=tools.applyTransform(self.datas.pcdCollection[-2],self.datas.pcdCollection[-1],self.datas.trans_inits[0])
+IndexError: list index out of range
+
+Warning (from warnings module):
+  File "C:\python36\lib\site-packages\vtk\util\numpy_support.py", line 137
+    assert not numpy.issubdtype(z.dtype, complex), \
+FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+Traceback (most recent call last):
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 78, in __loadingFinished
+    self.__mergedByTransInit()
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 121, in __mergedByTransInit
+    trans_init=self.datas.trans_init
+AttributeError: 'dataCollection' object has no attribute 'trans_init'
+
+Warning (from warnings module):
+  File "C:\python36\lib\site-packages\vtk\util\numpy_support.py", line 137
+    assert not numpy.issubdtype(z.dtype, complex), \
+FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+Traceback (most recent call last):
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 78, in __loadingFinished
+    self.__mergedByTransInit()
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 122, in __mergedByTransInit
+    d=tools.applyTransform(self.datas.pcdCollection[-2],self.datas.pcdCollection[-1],trans_inits[0])
+IndexError: list index out of range
+
+Warning (from warnings module):
+  File "C:\python36\lib\site-packages\vtk\util\numpy_support.py", line 137
+    assert not numpy.issubdtype(z.dtype, complex), \
+FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+Traceback (most recent call last):
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 78, in __loadingFinished
+    self.__mergedByTransInit()
+  File "C:\Users\fam88\Downloads\ª÷ÄÝ¤¤¤ßviewer-20200722T135222Z-001\ª÷ÄÝ¤¤¤ßviewer\main.py", line 122, in __mergedByTransInit
+    print(self.datas.pcdCollection[-2])
+IndexError: list index out of range
+C:\python36\lib\site-packages\vtk\util\numpy_support.py:137: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  assert not numpy.issubdtype(z.dtype, complex), \
+C:\python36\lib\site-packages\vtk\util\numpy_support.py:137: FutureWarning: Conversion of the second argument of issubdtype from `complex` to `np.complexfloating` is deprecated. In future, it will be treated as `np.complex128 == np.dtype(complex).type`.
+  assert not numpy.issubdtype(z.dtype, complex), \
